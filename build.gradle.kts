@@ -6,3 +6,14 @@ plugins {
   alias(libs.plugins.roborazzi)
   alias(libs.plugins.secrets)
 }
+android {
+    compileSdk = 34
+    
+    defaultConfig {
+        applicationId = "com.example.googleaistudioapp"
+        minSdk = 24
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0"
+    }
+}
