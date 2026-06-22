@@ -7,6 +7,7 @@ plugins {
   alias(libs.plugins.secrets)
 }
 android {
+    namespace = "com.example.googleaistudioapp"
     compileSdk = 34
     
     defaultConfig {
